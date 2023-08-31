@@ -1,0 +1,4 @@
+address: http://workmaxx.tilda.ws
+#browser: firefox
+browser: chrome
+sleep_time: 4
