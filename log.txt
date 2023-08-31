@@ -1,0 +1,57 @@
+2023-08-31 09:33:31 INFO ====== WebDriver manager ======
+2023-08-31 09:33:32 INFO Get LATEST chromedriver version for google-chrome
+2023-08-31 09:33:32 INFO Get LATEST chromedriver version for google-chrome
+2023-08-31 09:33:32 INFO There is no [win64] chromedriver "116.0.5845.112" for browser google-chrome "116.0.5845.112" in cache
+2023-08-31 09:33:32 INFO Get LATEST chromedriver version for google-chrome
+2023-08-31 09:33:33 INFO WebDriver version 116.0.5845.96 selected
+2023-08-31 09:33:33 INFO Modern chrome version https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/116.0.5845.96/win32/chromedriver-win32.zip
+2023-08-31 09:33:33 INFO About to download new driver from https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/116.0.5845.96/win32/chromedriver-win32.zip
+2023-08-31 09:33:33 INFO Driver downloading response is 200
+2023-08-31 09:33:35 INFO Get LATEST chromedriver version for google-chrome
+2023-08-31 09:33:35 INFO Driver has been saved in cache [C:\Users\MaxX\.wdm\drivers\chromedriver\win64\116.0.5845.112]
+2023-08-31 09:33:50 INFO Test_01 Starting...
+2023-08-31 09:33:54 INFO Clicked КОНТАКТЫ button
+2023-08-31 09:33:56 INFO We find text "Контакты" in field contact btn
+2023-08-31 09:33:56 INFO Test_02 Starting...
+2023-08-31 09:33:57 INFO Clicked in heder 'Обо мне' button
+2023-08-31 09:33:59 INFO We find text "Обо мне" in field about me
+2023-08-31 09:33:59 INFO Test_03 Starting...
+2023-08-31 09:33:59 INFO Clicked in heder 'Услуги' button
+2023-08-31 09:34:01 INFO We find text "UI - UX дизайн" in field servise
+2023-08-31 09:34:01 INFO Test_04 Starting...
+2023-08-31 09:34:01 INFO Clicked in heder 'Преимущества' button
+2023-08-31 09:34:03 INFO We find text "Основные преимущества" in field advantages
+2023-08-31 09:34:03 INFO Test_05 Starting...
+2023-08-31 09:34:03 INFO Clicked in heder 'Контакты' button
+2023-08-31 09:34:05 INFO We find text "Контакты" in field contact btn
+2023-08-31 09:34:05 INFO Test_06 Starting...
+2023-08-31 09:34:06 INFO Clicked in heder 'UI-UX' button
+2023-08-31 09:34:08 INFO We find text "UI - UX ДИЗАЙН" in field ux-ui
+2023-08-31 09:34:08 INFO Test_07 Starting...
+2023-08-31 09:34:08 INFO Clicked in heder 'Tilda' button
+2023-08-31 09:34:10 INFO We find text "TILDA" in field tilda
+2023-08-31 09:34:10 INFO Test_08 Starting...
+2023-08-31 09:34:11 INFO Clicked in heder 'SEO' button
+2023-08-31 09:34:13 INFO We find text "SEO ОПТИМИЗАЦИЯ" in field seo
+2023-08-31 09:34:13 INFO Test_09 Starting...
+2023-08-31 09:34:15 INFO Clicked in block advantage 'UI-UX' button
+2023-08-31 09:34:17 INFO We find text "UI - UX ДИЗАЙН" in field ux-ui
+2023-08-31 09:34:17 INFO Test_10 Starting...
+2023-08-31 09:34:20 INFO Clicked in block advantage 'TILDA' button
+2023-08-31 09:34:22 INFO We find text "TILDA" in field tilda
+2023-08-31 09:34:22 INFO Test_11 Starting...
+2023-08-31 09:34:25 INFO Clicked in block advantage 'SEO' button
+2023-08-31 09:34:27 INFO We find text "SEO ОПТИМИЗАЦИЯ" in field seo
+2023-08-31 09:34:27 INFO Test_12 Starting...
+2023-08-31 09:34:27 INFO Clicked in futer 'Back to top' button
+2023-08-31 09:34:29 INFO We find text "WorkMaxX" in field back to top
+2023-08-31 09:34:29 INFO Test_13 Starting...
+2023-08-31 09:34:29 INFO Send 4444@bk.ru to element Email field
+2023-08-31 09:34:29 INFO Send John to element Name field
+2023-08-31 09:34:29 INFO Send Hello world to element Message field
+2023-08-31 09:34:31 INFO Clicked in contacts 'Отправить' button
+2023-08-31 09:34:42 INFO We find text "Спасибо! Данные успешно отправлены." in field contact
+2023-08-31 09:34:42 INFO Test_14 Starting...
+2023-08-31 09:34:44 INFO Clicked in heder 'UI-UX' button
+2023-08-31 09:34:46 INFO Clicked in heder 'WorkMaxX' button
+2023-08-31 09:34:48 INFO We find text "WorkMaxX" in field contact
