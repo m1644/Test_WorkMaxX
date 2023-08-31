@@ -20,7 +20,7 @@ class OperationsHelper(BasePage):
             element_name = description
         else:
             element_name = locator
-        logging.info(f"Send {word} to element {element_name}")
+        logging.debug(f"Send {word} to element {element_name}")
         field = self.find_element(locator)
         if not field:
             logging.error(f"Element {locator} not found")
@@ -46,7 +46,7 @@ class OperationsHelper(BasePage):
         except:
             logging.exception("Exception with click")
             return False
-        logging.info(f'Clicked {element_name} button')
+        logging.debug(f'Clicked {element_name} button')
         return True
 
     def get_text_from_element(self, locator, description=None):
@@ -62,7 +62,7 @@ class OperationsHelper(BasePage):
         except:
             logging.exception(f"Exception while get text from {element_name}")
             return None
-        logging.info(f'We find text "{text}" in field {element_name}')
+        logging.debug(f'We find text "{text}" in field {element_name}')
         return text
 
 # Enter text

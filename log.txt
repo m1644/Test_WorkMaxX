@@ -1,57 +1,379 @@
-2023-08-31 09:33:31 INFO ====== WebDriver manager ======
-2023-08-31 09:33:32 INFO Get LATEST chromedriver version for google-chrome
-2023-08-31 09:33:32 INFO Get LATEST chromedriver version for google-chrome
-2023-08-31 09:33:32 INFO There is no [win64] chromedriver "116.0.5845.112" for browser google-chrome "116.0.5845.112" in cache
-2023-08-31 09:33:32 INFO Get LATEST chromedriver version for google-chrome
-2023-08-31 09:33:33 INFO WebDriver version 116.0.5845.96 selected
-2023-08-31 09:33:33 INFO Modern chrome version https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/116.0.5845.96/win32/chromedriver-win32.zip
-2023-08-31 09:33:33 INFO About to download new driver from https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/116.0.5845.96/win32/chromedriver-win32.zip
-2023-08-31 09:33:33 INFO Driver downloading response is 200
-2023-08-31 09:33:35 INFO Get LATEST chromedriver version for google-chrome
-2023-08-31 09:33:35 INFO Driver has been saved in cache [C:\Users\MaxX\.wdm\drivers\chromedriver\win64\116.0.5845.112]
-2023-08-31 09:33:50 INFO Test_01 Starting...
-2023-08-31 09:33:54 INFO Clicked КОНТАКТЫ button
-2023-08-31 09:33:56 INFO We find text "Контакты" in field contact btn
-2023-08-31 09:33:56 INFO Test_02 Starting...
-2023-08-31 09:33:57 INFO Clicked in heder 'Обо мне' button
-2023-08-31 09:33:59 INFO We find text "Обо мне" in field about me
-2023-08-31 09:33:59 INFO Test_03 Starting...
-2023-08-31 09:33:59 INFO Clicked in heder 'Услуги' button
-2023-08-31 09:34:01 INFO We find text "UI - UX дизайн" in field servise
-2023-08-31 09:34:01 INFO Test_04 Starting...
-2023-08-31 09:34:01 INFO Clicked in heder 'Преимущества' button
-2023-08-31 09:34:03 INFO We find text "Основные преимущества" in field advantages
-2023-08-31 09:34:03 INFO Test_05 Starting...
-2023-08-31 09:34:03 INFO Clicked in heder 'Контакты' button
-2023-08-31 09:34:05 INFO We find text "Контакты" in field contact btn
-2023-08-31 09:34:05 INFO Test_06 Starting...
-2023-08-31 09:34:06 INFO Clicked in heder 'UI-UX' button
-2023-08-31 09:34:08 INFO We find text "UI - UX ДИЗАЙН" in field ux-ui
-2023-08-31 09:34:08 INFO Test_07 Starting...
-2023-08-31 09:34:08 INFO Clicked in heder 'Tilda' button
-2023-08-31 09:34:10 INFO We find text "TILDA" in field tilda
-2023-08-31 09:34:10 INFO Test_08 Starting...
-2023-08-31 09:34:11 INFO Clicked in heder 'SEO' button
-2023-08-31 09:34:13 INFO We find text "SEO ОПТИМИЗАЦИЯ" in field seo
-2023-08-31 09:34:13 INFO Test_09 Starting...
-2023-08-31 09:34:15 INFO Clicked in block advantage 'UI-UX' button
-2023-08-31 09:34:17 INFO We find text "UI - UX ДИЗАЙН" in field ux-ui
-2023-08-31 09:34:17 INFO Test_10 Starting...
-2023-08-31 09:34:20 INFO Clicked in block advantage 'TILDA' button
-2023-08-31 09:34:22 INFO We find text "TILDA" in field tilda
-2023-08-31 09:34:22 INFO Test_11 Starting...
-2023-08-31 09:34:25 INFO Clicked in block advantage 'SEO' button
-2023-08-31 09:34:27 INFO We find text "SEO ОПТИМИЗАЦИЯ" in field seo
-2023-08-31 09:34:27 INFO Test_12 Starting...
-2023-08-31 09:34:27 INFO Clicked in futer 'Back to top' button
-2023-08-31 09:34:29 INFO We find text "WorkMaxX" in field back to top
-2023-08-31 09:34:29 INFO Test_13 Starting...
-2023-08-31 09:34:29 INFO Send 4444@bk.ru to element Email field
-2023-08-31 09:34:29 INFO Send John to element Name field
-2023-08-31 09:34:29 INFO Send Hello world to element Message field
-2023-08-31 09:34:31 INFO Clicked in contacts 'Отправить' button
-2023-08-31 09:34:42 INFO We find text "Спасибо! Данные успешно отправлены." in field contact
-2023-08-31 09:34:42 INFO Test_14 Starting...
-2023-08-31 09:34:44 INFO Clicked in heder 'UI-UX' button
-2023-08-31 09:34:46 INFO Clicked in heder 'WorkMaxX' button
-2023-08-31 09:34:48 INFO We find text "WorkMaxX" in field contact
+2023-08-31 10:54:50 INFO ====== WebDriver manager ======
+2023-08-31 10:54:52 INFO Get LATEST chromedriver version for google-chrome
+2023-08-31 10:54:52 INFO Get LATEST chromedriver version for google-chrome
+2023-08-31 10:54:52 INFO There is no [win64] chromedriver "116.0.5845.112" for browser google-chrome "116.0.5845.112" in cache
+2023-08-31 10:54:52 INFO Get LATEST chromedriver version for google-chrome
+2023-08-31 10:54:52 DEBUG Starting new HTTPS connection (1): googlechromelabs.github.io:443
+2023-08-31 10:54:52 DEBUG https://googlechromelabs.github.io:443 "GET /chrome-for-testing/known-good-versions-with-downloads.json HTTP/1.1" 200 11364
+2023-08-31 10:54:52 INFO WebDriver version 116.0.5845.96 selected
+2023-08-31 10:54:52 INFO Modern chrome version https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/116.0.5845.96/win32/chromedriver-win32.zip
+2023-08-31 10:54:52 INFO About to download new driver from https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/116.0.5845.96/win32/chromedriver-win32.zip
+2023-08-31 10:54:52 DEBUG Starting new HTTPS connection (1): edgedl.me.gvt1.com:443
+2023-08-31 10:54:52 DEBUG https://edgedl.me.gvt1.com:443 "GET /edgedl/chrome/chrome-for-testing/116.0.5845.96/win32/chromedriver-win32.zip HTTP/1.1" 200 6640039
+2023-08-31 10:54:52 INFO Driver downloading response is 200
+2023-08-31 10:54:54 INFO Get LATEST chromedriver version for google-chrome
+2023-08-31 10:54:54 INFO Driver has been saved in cache [C:\Users\MaxX\.wdm\drivers\chromedriver\win64\116.0.5845.112]
+2023-08-31 10:54:56 DEBUG Started executable: `C:\Users\MaxX\.wdm\drivers\chromedriver\win64\116.0.5845.112\chromedriver-win32/chromedriver.exe` in a child process with pid: 11132
+2023-08-31 10:54:56 DEBUG POST http://localhost:51749/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}}
+2023-08-31 10:54:56 DEBUG Starting new HTTP connection (1): localhost:51749
+2023-08-31 10:54:57 DEBUG http://localhost:51749 "POST /session HTTP/1.1" 200 0
+2023-08-31 10:54:57 DEBUG Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"116.0.5845.112","chrome":{"chromedriverVersion":"116.0.5845.96 (1a391816688002153ef791ffe60d9e899a71a037-refs/branch-heads/5845@{#1382})","userDataDir":"C:\\Windows\\SystemTemp\\scoped_dir11132_751714329"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:51752"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"ec1f5229fd18050d8a77e889807a7ccf"}} | headers=HTTPHeaderDict({'Content-Length': '867', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:54:57 DEBUG Finished Request
+2023-08-31 10:54:57 INFO Test_01 Starting...
+2023-08-31 10:54:57 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/url {"url": "http://workmaxx.tilda.ws"}
+2023-08-31 10:55:01 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/url HTTP/1.1" 200 0
+2023-08-31 10:55:01 DEBUG Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:01 DEBUG Finished Request
+2023-08-31 10:55:03 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element {"using": "css selector", "value": "div.t182__buttons"}
+2023-08-31 10:55:03 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/element HTTP/1.1" 200 0
+2023-08-31 10:55:03 DEBUG Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"837AED461A4E66503417BAFC91BAA8E4_element_4"}} | headers=HTTPHeaderDict({'Content-Length': '94', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:03 DEBUG Finished Request
+2023-08-31 10:55:03 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element/837AED461A4E66503417BAFC91BAA8E4_element_4/click {"id": "837AED461A4E66503417BAFC91BAA8E4_element_4"}
+2023-08-31 10:55:03 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/element/837AED461A4E66503417BAFC91BAA8E4_element_4/click HTTP/1.1" 200 0
+2023-08-31 10:55:03 DEBUG Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:03 DEBUG Finished Request
+2023-08-31 10:55:03 DEBUG Clicked КОНТАКТЫ button
+2023-08-31 10:55:05 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element {"using": "xpath", "value": "//*[@id=\"rec370238945\"]/div/div[1]/div/div/div"}
+2023-08-31 10:55:05 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/element HTTP/1.1" 200 0
+2023-08-31 10:55:05 DEBUG Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"837AED461A4E66503417BAFC91BAA8E4_element_7"}} | headers=HTTPHeaderDict({'Content-Length': '94', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:05 DEBUG Finished Request
+2023-08-31 10:55:05 DEBUG GET http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element/837AED461A4E66503417BAFC91BAA8E4_element_7/text {"id": "837AED461A4E66503417BAFC91BAA8E4_element_7"}
+2023-08-31 10:55:05 DEBUG http://localhost:51749 "GET /session/ec1f5229fd18050d8a77e889807a7ccf/element/837AED461A4E66503417BAFC91BAA8E4_element_7/text HTTP/1.1" 200 0
+2023-08-31 10:55:05 DEBUG Remote response: status=200 | data={"value":"Контакты"} | headers=HTTPHeaderDict({'Content-Length': '28', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:05 DEBUG Finished Request
+2023-08-31 10:55:05 DEBUG We find text "Контакты" in field contact btn
+2023-08-31 10:55:05 INFO Test_02 Starting...
+2023-08-31 10:55:05 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element {"using": "css selector", "value": "li:nth-child(1)"}
+2023-08-31 10:55:05 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/element HTTP/1.1" 200 0
+2023-08-31 10:55:05 DEBUG Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"837AED461A4E66503417BAFC91BAA8E4_element_8"}} | headers=HTTPHeaderDict({'Content-Length': '94', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:05 DEBUG Finished Request
+2023-08-31 10:55:05 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element/837AED461A4E66503417BAFC91BAA8E4_element_8/click {"id": "837AED461A4E66503417BAFC91BAA8E4_element_8"}
+2023-08-31 10:55:05 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/element/837AED461A4E66503417BAFC91BAA8E4_element_8/click HTTP/1.1" 200 0
+2023-08-31 10:55:05 DEBUG Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:05 DEBUG Finished Request
+2023-08-31 10:55:05 DEBUG Clicked in heder 'Обо мне' button
+2023-08-31 10:55:07 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element {"using": "xpath", "value": "//*[@id=\"rec370236562\"]/div/div/div/h3"}
+2023-08-31 10:55:07 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/element HTTP/1.1" 200 0
+2023-08-31 10:55:07 DEBUG Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"837AED461A4E66503417BAFC91BAA8E4_element_11"}} | headers=HTTPHeaderDict({'Content-Length': '95', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:07 DEBUG Finished Request
+2023-08-31 10:55:07 DEBUG GET http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element/837AED461A4E66503417BAFC91BAA8E4_element_11/text {"id": "837AED461A4E66503417BAFC91BAA8E4_element_11"}
+2023-08-31 10:55:07 DEBUG http://localhost:51749 "GET /session/ec1f5229fd18050d8a77e889807a7ccf/element/837AED461A4E66503417BAFC91BAA8E4_element_11/text HTTP/1.1" 200 0
+2023-08-31 10:55:07 DEBUG Remote response: status=200 | data={"value":"Обо мне"} | headers=HTTPHeaderDict({'Content-Length': '25', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:07 DEBUG Finished Request
+2023-08-31 10:55:07 DEBUG We find text "Обо мне" in field about me
+2023-08-31 10:55:07 INFO Test_03 Starting...
+2023-08-31 10:55:07 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element {"using": "css selector", "value": "li:nth-child(2)"}
+2023-08-31 10:55:07 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/element HTTP/1.1" 200 0
+2023-08-31 10:55:07 DEBUG Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"837AED461A4E66503417BAFC91BAA8E4_element_12"}} | headers=HTTPHeaderDict({'Content-Length': '95', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:07 DEBUG Finished Request
+2023-08-31 10:55:07 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element/837AED461A4E66503417BAFC91BAA8E4_element_12/click {"id": "837AED461A4E66503417BAFC91BAA8E4_element_12"}
+2023-08-31 10:55:07 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/element/837AED461A4E66503417BAFC91BAA8E4_element_12/click HTTP/1.1" 200 0
+2023-08-31 10:55:07 DEBUG Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:07 DEBUG Finished Request
+2023-08-31 10:55:07 DEBUG Clicked in heder 'Услуги' button
+2023-08-31 10:55:09 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element {"using": "xpath", "value": "//*[@id=\"rec370221167\"]/div/div/div[1]/div[2]/div[1]/p"}
+2023-08-31 10:55:09 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/element HTTP/1.1" 200 0
+2023-08-31 10:55:09 DEBUG Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"837AED461A4E66503417BAFC91BAA8E4_element_13"}} | headers=HTTPHeaderDict({'Content-Length': '95', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:09 DEBUG Finished Request
+2023-08-31 10:55:09 DEBUG GET http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element/837AED461A4E66503417BAFC91BAA8E4_element_13/text {"id": "837AED461A4E66503417BAFC91BAA8E4_element_13"}
+2023-08-31 10:55:09 DEBUG http://localhost:51749 "GET /session/ec1f5229fd18050d8a77e889807a7ccf/element/837AED461A4E66503417BAFC91BAA8E4_element_13/text HTTP/1.1" 200 0
+2023-08-31 10:55:09 DEBUG Remote response: status=200 | data={"value":"UI - UX дизайн"} | headers=HTTPHeaderDict({'Content-Length': '32', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:09 DEBUG Finished Request
+2023-08-31 10:55:09 DEBUG We find text "UI - UX дизайн" in field servise
+2023-08-31 10:55:09 INFO Test_04 Starting...
+2023-08-31 10:55:09 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element {"using": "css selector", "value": "li:nth-child(3)"}
+2023-08-31 10:55:09 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/element HTTP/1.1" 200 0
+2023-08-31 10:55:09 DEBUG Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"837AED461A4E66503417BAFC91BAA8E4_element_16"}} | headers=HTTPHeaderDict({'Content-Length': '95', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:09 DEBUG Finished Request
+2023-08-31 10:55:09 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element/837AED461A4E66503417BAFC91BAA8E4_element_16/click {"id": "837AED461A4E66503417BAFC91BAA8E4_element_16"}
+2023-08-31 10:55:09 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/element/837AED461A4E66503417BAFC91BAA8E4_element_16/click HTTP/1.1" 200 0
+2023-08-31 10:55:09 DEBUG Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:09 DEBUG Finished Request
+2023-08-31 10:55:09 DEBUG Clicked in heder 'Преимущества' button
+2023-08-31 10:55:11 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element {"using": "xpath", "value": "//*[@id=\"rec370300541\"]/div/div/div/div/h2"}
+2023-08-31 10:55:11 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/element HTTP/1.1" 200 0
+2023-08-31 10:55:11 DEBUG Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"837AED461A4E66503417BAFC91BAA8E4_element_17"}} | headers=HTTPHeaderDict({'Content-Length': '95', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:11 DEBUG Finished Request
+2023-08-31 10:55:11 DEBUG GET http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element/837AED461A4E66503417BAFC91BAA8E4_element_17/text {"id": "837AED461A4E66503417BAFC91BAA8E4_element_17"}
+2023-08-31 10:55:11 DEBUG http://localhost:51749 "GET /session/ec1f5229fd18050d8a77e889807a7ccf/element/837AED461A4E66503417BAFC91BAA8E4_element_17/text HTTP/1.1" 200 0
+2023-08-31 10:55:11 DEBUG Remote response: status=200 | data={"value":"Основные преимущества"} | headers=HTTPHeaderDict({'Content-Length': '53', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:11 DEBUG Finished Request
+2023-08-31 10:55:11 DEBUG We find text "Основные преимущества" in field advantages
+2023-08-31 10:55:11 INFO Test_05 Starting...
+2023-08-31 10:55:11 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element {"using": "css selector", "value": "li:nth-child(4)"}
+2023-08-31 10:55:11 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/element HTTP/1.1" 200 0
+2023-08-31 10:55:11 DEBUG Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"837AED461A4E66503417BAFC91BAA8E4_element_20"}} | headers=HTTPHeaderDict({'Content-Length': '95', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:11 DEBUG Finished Request
+2023-08-31 10:55:11 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element/837AED461A4E66503417BAFC91BAA8E4_element_20/click {"id": "837AED461A4E66503417BAFC91BAA8E4_element_20"}
+2023-08-31 10:55:11 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/element/837AED461A4E66503417BAFC91BAA8E4_element_20/click HTTP/1.1" 200 0
+2023-08-31 10:55:11 DEBUG Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:11 DEBUG Finished Request
+2023-08-31 10:55:11 DEBUG Clicked in heder 'Контакты' button
+2023-08-31 10:55:13 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element {"using": "xpath", "value": "//*[@id=\"rec370238945\"]/div/div[1]/div/div/div"}
+2023-08-31 10:55:13 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/element HTTP/1.1" 200 0
+2023-08-31 10:55:13 DEBUG Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"837AED461A4E66503417BAFC91BAA8E4_element_7"}} | headers=HTTPHeaderDict({'Content-Length': '94', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:13 DEBUG Finished Request
+2023-08-31 10:55:13 DEBUG GET http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element/837AED461A4E66503417BAFC91BAA8E4_element_7/text {"id": "837AED461A4E66503417BAFC91BAA8E4_element_7"}
+2023-08-31 10:55:13 DEBUG http://localhost:51749 "GET /session/ec1f5229fd18050d8a77e889807a7ccf/element/837AED461A4E66503417BAFC91BAA8E4_element_7/text HTTP/1.1" 200 0
+2023-08-31 10:55:13 DEBUG Remote response: status=200 | data={"value":"Контакты"} | headers=HTTPHeaderDict({'Content-Length': '28', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:13 DEBUG Finished Request
+2023-08-31 10:55:13 DEBUG We find text "Контакты" in field contact btn
+2023-08-31 10:55:13 INFO Test_06 Starting...
+2023-08-31 10:55:13 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element {"using": "css selector", "value": "div.t446__rightmenuwrapper > ul > li:nth-child(1)"}
+2023-08-31 10:55:13 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/element HTTP/1.1" 200 0
+2023-08-31 10:55:13 DEBUG Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"837AED461A4E66503417BAFC91BAA8E4_element_21"}} | headers=HTTPHeaderDict({'Content-Length': '95', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:13 DEBUG Finished Request
+2023-08-31 10:55:13 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element/837AED461A4E66503417BAFC91BAA8E4_element_21/click {"id": "837AED461A4E66503417BAFC91BAA8E4_element_21"}
+2023-08-31 10:55:14 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/element/837AED461A4E66503417BAFC91BAA8E4_element_21/click HTTP/1.1" 200 0
+2023-08-31 10:55:14 DEBUG Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:14 DEBUG Finished Request
+2023-08-31 10:55:14 DEBUG Clicked in heder 'UI-UX' button
+2023-08-31 10:55:16 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element {"using": "xpath", "value": "//*[@id=\"recorddiv370241457\"]/div[3]/div/div/div/h1"}
+2023-08-31 10:55:16 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/element HTTP/1.1" 200 0
+2023-08-31 10:55:16 DEBUG Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"1208CE5BB9DD865406BF8C8B0B05CBF0_element_27"}} | headers=HTTPHeaderDict({'Content-Length': '95', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:16 DEBUG Finished Request
+2023-08-31 10:55:16 DEBUG GET http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element/1208CE5BB9DD865406BF8C8B0B05CBF0_element_27/text {"id": "1208CE5BB9DD865406BF8C8B0B05CBF0_element_27"}
+2023-08-31 10:55:16 DEBUG http://localhost:51749 "GET /session/ec1f5229fd18050d8a77e889807a7ccf/element/1208CE5BB9DD865406BF8C8B0B05CBF0_element_27/text HTTP/1.1" 200 0
+2023-08-31 10:55:16 DEBUG Remote response: status=200 | data={"value":"UI - UX ДИЗАЙН"} | headers=HTTPHeaderDict({'Content-Length': '32', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:16 DEBUG Finished Request
+2023-08-31 10:55:16 DEBUG We find text "UI - UX ДИЗАЙН" in field ux-ui
+2023-08-31 10:55:16 INFO Test_07 Starting...
+2023-08-31 10:55:16 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element {"using": "css selector", "value": "div.t446__rightmenuwrapper > ul > li:nth-child(2)"}
+2023-08-31 10:55:16 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/element HTTP/1.1" 200 0
+2023-08-31 10:55:16 DEBUG Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"1208CE5BB9DD865406BF8C8B0B05CBF0_element_30"}} | headers=HTTPHeaderDict({'Content-Length': '95', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:16 DEBUG Finished Request
+2023-08-31 10:55:16 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element/1208CE5BB9DD865406BF8C8B0B05CBF0_element_30/click {"id": "1208CE5BB9DD865406BF8C8B0B05CBF0_element_30"}
+2023-08-31 10:55:16 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/element/1208CE5BB9DD865406BF8C8B0B05CBF0_element_30/click HTTP/1.1" 200 0
+2023-08-31 10:55:16 DEBUG Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:16 DEBUG Finished Request
+2023-08-31 10:55:16 DEBUG Clicked in heder 'Tilda' button
+2023-08-31 10:55:18 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element {"using": "xpath", "value": "//*[@id=\"recorddiv370249579\"]/div[3]/div/div/div/h1"}
+2023-08-31 10:55:18 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/element HTTP/1.1" 200 0
+2023-08-31 10:55:18 DEBUG Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"5D6A9616D86176BB65D513CA387372C2_element_37"}} | headers=HTTPHeaderDict({'Content-Length': '95', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:18 DEBUG Finished Request
+2023-08-31 10:55:18 DEBUG GET http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element/5D6A9616D86176BB65D513CA387372C2_element_37/text {"id": "5D6A9616D86176BB65D513CA387372C2_element_37"}
+2023-08-31 10:55:18 DEBUG http://localhost:51749 "GET /session/ec1f5229fd18050d8a77e889807a7ccf/element/5D6A9616D86176BB65D513CA387372C2_element_37/text HTTP/1.1" 200 0
+2023-08-31 10:55:18 DEBUG Remote response: status=200 | data={"value":"TILDA"} | headers=HTTPHeaderDict({'Content-Length': '17', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:18 DEBUG Finished Request
+2023-08-31 10:55:18 DEBUG We find text "TILDA" in field tilda
+2023-08-31 10:55:18 INFO Test_08 Starting...
+2023-08-31 10:55:18 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element {"using": "css selector", "value": "div.t446__rightmenuwrapper > ul > li:nth-child(3)"}
+2023-08-31 10:55:18 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/element HTTP/1.1" 200 0
+2023-08-31 10:55:18 DEBUG Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"5D6A9616D86176BB65D513CA387372C2_element_39"}} | headers=HTTPHeaderDict({'Content-Length': '95', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:18 DEBUG Finished Request
+2023-08-31 10:55:18 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element/5D6A9616D86176BB65D513CA387372C2_element_39/click {"id": "5D6A9616D86176BB65D513CA387372C2_element_39"}
+2023-08-31 10:55:19 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/element/5D6A9616D86176BB65D513CA387372C2_element_39/click HTTP/1.1" 200 0
+2023-08-31 10:55:19 DEBUG Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:19 DEBUG Finished Request
+2023-08-31 10:55:19 DEBUG Clicked in heder 'SEO' button
+2023-08-31 10:55:21 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element {"using": "xpath", "value": "//*[@id=\"recorddiv370275501\"]/div[3]/div/div/div/h1"}
+2023-08-31 10:55:21 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/element HTTP/1.1" 200 0
+2023-08-31 10:55:21 DEBUG Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"D52047F651FF0D34EDCF5608C193F7CD_element_46"}} | headers=HTTPHeaderDict({'Content-Length': '95', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:21 DEBUG Finished Request
+2023-08-31 10:55:21 DEBUG GET http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element/D52047F651FF0D34EDCF5608C193F7CD_element_46/text {"id": "D52047F651FF0D34EDCF5608C193F7CD_element_46"}
+2023-08-31 10:55:21 DEBUG http://localhost:51749 "GET /session/ec1f5229fd18050d8a77e889807a7ccf/element/D52047F651FF0D34EDCF5608C193F7CD_element_46/text HTTP/1.1" 200 0
+2023-08-31 10:55:21 DEBUG Remote response: status=200 | data={"value":"SEO ОПТИМИЗАЦИЯ"} | headers=HTTPHeaderDict({'Content-Length': '38', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:21 DEBUG Finished Request
+2023-08-31 10:55:21 DEBUG We find text "SEO ОПТИМИЗАЦИЯ" in field seo
+2023-08-31 10:55:21 INFO Test_09 Starting...
+2023-08-31 10:55:21 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/url {"url": "http://workmaxx.tilda.ws"}
+2023-08-31 10:55:21 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/url HTTP/1.1" 200 0
+2023-08-31 10:55:21 DEBUG Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:21 DEBUG Finished Request
+2023-08-31 10:55:23 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element {"using": "css selector", "value": "div:nth-child(1) > div.t608__textwrapper.t-align_center > a"}
+2023-08-31 10:55:23 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/element HTTP/1.1" 200 0
+2023-08-31 10:55:23 DEBUG Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"2E36CFB686069A0A85804D90D52C7797_element_55"}} | headers=HTTPHeaderDict({'Content-Length': '95', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:23 DEBUG Finished Request
+2023-08-31 10:55:23 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element/2E36CFB686069A0A85804D90D52C7797_element_55/click {"id": "2E36CFB686069A0A85804D90D52C7797_element_55"}
+2023-08-31 10:55:24 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/element/2E36CFB686069A0A85804D90D52C7797_element_55/click HTTP/1.1" 200 0
+2023-08-31 10:55:24 DEBUG Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:24 DEBUG Finished Request
+2023-08-31 10:55:24 DEBUG Clicked in block advantage 'UI-UX' button
+2023-08-31 10:55:26 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element {"using": "xpath", "value": "//*[@id=\"recorddiv370241457\"]/div[3]/div/div/div/h1"}
+2023-08-31 10:55:26 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/element HTTP/1.1" 200 0
+2023-08-31 10:55:26 DEBUG Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"1997E0F6D39129C130444A49BA135BBB_element_61"}} | headers=HTTPHeaderDict({'Content-Length': '95', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:26 DEBUG Finished Request
+2023-08-31 10:55:26 DEBUG GET http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element/1997E0F6D39129C130444A49BA135BBB_element_61/text {"id": "1997E0F6D39129C130444A49BA135BBB_element_61"}
+2023-08-31 10:55:26 DEBUG http://localhost:51749 "GET /session/ec1f5229fd18050d8a77e889807a7ccf/element/1997E0F6D39129C130444A49BA135BBB_element_61/text HTTP/1.1" 200 0
+2023-08-31 10:55:26 DEBUG Remote response: status=200 | data={"value":"UI - UX ДИЗАЙН"} | headers=HTTPHeaderDict({'Content-Length': '32', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:26 DEBUG Finished Request
+2023-08-31 10:55:26 DEBUG We find text "UI - UX ДИЗАЙН" in field ux-ui
+2023-08-31 10:55:26 INFO Test_10 Starting...
+2023-08-31 10:55:26 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/url {"url": "http://workmaxx.tilda.ws"}
+2023-08-31 10:55:26 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/url HTTP/1.1" 200 0
+2023-08-31 10:55:26 DEBUG Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:26 DEBUG Finished Request
+2023-08-31 10:55:28 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element {"using": "css selector", "value": "div:nth-child(2) > div.t608__textwrapper.t-align_center > a"}
+2023-08-31 10:55:28 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/element HTTP/1.1" 200 0
+2023-08-31 10:55:28 DEBUG Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"F14A9161B52EE85D003AC7F2B70B930A_element_69"}} | headers=HTTPHeaderDict({'Content-Length': '95', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:28 DEBUG Finished Request
+2023-08-31 10:55:28 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element/F14A9161B52EE85D003AC7F2B70B930A_element_69/click {"id": "F14A9161B52EE85D003AC7F2B70B930A_element_69"}
+2023-08-31 10:55:28 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/element/F14A9161B52EE85D003AC7F2B70B930A_element_69/click HTTP/1.1" 200 0
+2023-08-31 10:55:28 DEBUG Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:28 DEBUG Finished Request
+2023-08-31 10:55:28 DEBUG Clicked in block advantage 'TILDA' button
+2023-08-31 10:55:30 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element {"using": "xpath", "value": "//*[@id=\"recorddiv370249579\"]/div[3]/div/div/div/h1"}
+2023-08-31 10:55:30 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/element HTTP/1.1" 200 0
+2023-08-31 10:55:30 DEBUG Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"36EC11881590B5767EF17FE17626639D_element_76"}} | headers=HTTPHeaderDict({'Content-Length': '95', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:30 DEBUG Finished Request
+2023-08-31 10:55:30 DEBUG GET http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element/36EC11881590B5767EF17FE17626639D_element_76/text {"id": "36EC11881590B5767EF17FE17626639D_element_76"}
+2023-08-31 10:55:30 DEBUG http://localhost:51749 "GET /session/ec1f5229fd18050d8a77e889807a7ccf/element/36EC11881590B5767EF17FE17626639D_element_76/text HTTP/1.1" 200 0
+2023-08-31 10:55:30 DEBUG Remote response: status=200 | data={"value":"TILDA"} | headers=HTTPHeaderDict({'Content-Length': '17', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:30 DEBUG Finished Request
+2023-08-31 10:55:30 DEBUG We find text "TILDA" in field tilda
+2023-08-31 10:55:30 INFO Test_11 Starting...
+2023-08-31 10:55:30 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/url {"url": "http://workmaxx.tilda.ws"}
+2023-08-31 10:55:30 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/url HTTP/1.1" 200 0
+2023-08-31 10:55:30 DEBUG Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:30 DEBUG Finished Request
+2023-08-31 10:55:32 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element {"using": "css selector", "value": "div:nth-child(3) > div.t608__textwrapper.t-align_center > a"}
+2023-08-31 10:55:32 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/element HTTP/1.1" 200 0
+2023-08-31 10:55:32 DEBUG Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"4639B41144838668AE50B72927ECFA77_element_85"}} | headers=HTTPHeaderDict({'Content-Length': '95', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:32 DEBUG Finished Request
+2023-08-31 10:55:32 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element/4639B41144838668AE50B72927ECFA77_element_85/click {"id": "4639B41144838668AE50B72927ECFA77_element_85"}
+2023-08-31 10:55:33 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/element/4639B41144838668AE50B72927ECFA77_element_85/click HTTP/1.1" 200 0
+2023-08-31 10:55:33 DEBUG Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:33 DEBUG Finished Request
+2023-08-31 10:55:33 DEBUG Clicked in block advantage 'SEO' button
+2023-08-31 10:55:35 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element {"using": "xpath", "value": "//*[@id=\"recorddiv370275501\"]/div[3]/div/div/div/h1"}
+2023-08-31 10:55:35 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/element HTTP/1.1" 200 0
+2023-08-31 10:55:35 DEBUG Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"4FADE8E4FAEE056A38E3A7CA2923F75C_element_95"}} | headers=HTTPHeaderDict({'Content-Length': '95', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:35 DEBUG Finished Request
+2023-08-31 10:55:35 DEBUG GET http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element/4FADE8E4FAEE056A38E3A7CA2923F75C_element_95/text {"id": "4FADE8E4FAEE056A38E3A7CA2923F75C_element_95"}
+2023-08-31 10:55:35 DEBUG http://localhost:51749 "GET /session/ec1f5229fd18050d8a77e889807a7ccf/element/4FADE8E4FAEE056A38E3A7CA2923F75C_element_95/text HTTP/1.1" 200 0
+2023-08-31 10:55:35 DEBUG Remote response: status=200 | data={"value":"SEO ОПТИМИЗАЦИЯ"} | headers=HTTPHeaderDict({'Content-Length': '38', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:35 DEBUG Finished Request
+2023-08-31 10:55:35 DEBUG We find text "SEO ОПТИМИЗАЦИЯ" in field seo
+2023-08-31 10:55:35 INFO Test_12 Starting...
+2023-08-31 10:55:35 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/url {"url": "http://workmaxx.tilda.ws"}
+2023-08-31 10:55:35 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/url HTTP/1.1" 200 0
+2023-08-31 10:55:35 DEBUG Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:35 DEBUG Finished Request
+2023-08-31 10:55:35 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element {"using": "css selector", "value": "div:nth-child(4) > div > a"}
+2023-08-31 10:55:35 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/element HTTP/1.1" 200 0
+2023-08-31 10:55:35 DEBUG Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"E16A5A5F405460DC9113C571A4CB020D_element_102"}} | headers=HTTPHeaderDict({'Content-Length': '96', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:35 DEBUG Finished Request
+2023-08-31 10:55:35 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element/E16A5A5F405460DC9113C571A4CB020D_element_102/click {"id": "E16A5A5F405460DC9113C571A4CB020D_element_102"}
+2023-08-31 10:55:35 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/element/E16A5A5F405460DC9113C571A4CB020D_element_102/click HTTP/1.1" 200 0
+2023-08-31 10:55:35 DEBUG Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:35 DEBUG Finished Request
+2023-08-31 10:55:35 DEBUG Clicked in futer 'Back to top' button
+2023-08-31 10:55:35 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element {"using": "xpath", "value": "//h1[@class=\"t182__title t-title t-title_xl\"]"}
+2023-08-31 10:55:35 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/element HTTP/1.1" 404 0
+2023-08-31 10:55:35 DEBUG Remote response: status=404 | data={"value":{"error":"no such element","message":"no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1[@class=\"t182__title t-title t-title_xl\"]\"}\n  (Session info: chrome=116.0.5845.112)","stacktrace":"\tGetHandleVerifier [0x006137C3+48947]\n\t(No symbol) [0x005A8551]\n\t(No symbol) [0x004AC92D]\n\t(No symbol) [0x004D9E38]\n\t(No symbol) [0x004D9EFB]\n\t(No symbol) [0x00508EF2]\n\t(No symbol) [0x004F50D4]\n\t(No symbol) [0x005075DA]\n\t(No symbol) [0x004F4E86]\n\t(No symbol) [0x004D16C7]\n\t(No symbol) [0x004D284D]\n\tGetHandleVerifier [0x0085FDF9+2458985]\n\tGetHandleVerifier [0x008A744F+2751423]\n\tGetHandleVerifier [0x008A1361+2726609]\n\tGetHandleVerifier [0x00690680+560624]\n\t(No symbol) [0x005B238C]\n\t(No symbol) [0x005AE268]\n\t(No symbol) [0x005AE392]\n\t(No symbol) [0x005A10B7]\n\tBaseThreadInitThunk [0x778A6839+25]\n\tRtlGetFullPathName_UEx [0x77A78F0F+1215]\n\tRtlGetFullPathName_UEx [0x77A78EDD+1165]\n"}} | headers=HTTPHeaderDict({'Content-Length': '963', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:35 DEBUG Finished Request
+2023-08-31 10:55:36 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element {"using": "xpath", "value": "//h1[@class=\"t182__title t-title t-title_xl\"]"}
+2023-08-31 10:55:36 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/element HTTP/1.1" 404 0
+2023-08-31 10:55:36 DEBUG Remote response: status=404 | data={"value":{"error":"no such element","message":"no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1[@class=\"t182__title t-title t-title_xl\"]\"}\n  (Session info: chrome=116.0.5845.112)","stacktrace":"\tGetHandleVerifier [0x006137C3+48947]\n\t(No symbol) [0x005A8551]\n\t(No symbol) [0x004AC92D]\n\t(No symbol) [0x004D9E38]\n\t(No symbol) [0x004D9EFB]\n\t(No symbol) [0x00508EF2]\n\t(No symbol) [0x004F50D4]\n\t(No symbol) [0x005075DA]\n\t(No symbol) [0x004F4E86]\n\t(No symbol) [0x004D16C7]\n\t(No symbol) [0x004D284D]\n\tGetHandleVerifier [0x0085FDF9+2458985]\n\tGetHandleVerifier [0x008A744F+2751423]\n\tGetHandleVerifier [0x008A1361+2726609]\n\tGetHandleVerifier [0x00690680+560624]\n\t(No symbol) [0x005B238C]\n\t(No symbol) [0x005AE268]\n\t(No symbol) [0x005AE392]\n\t(No symbol) [0x005A10B7]\n\tBaseThreadInitThunk [0x778A6839+25]\n\tRtlGetFullPathName_UEx [0x77A78F0F+1215]\n\tRtlGetFullPathName_UEx [0x77A78EDD+1165]\n"}} | headers=HTTPHeaderDict({'Content-Length': '963', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:36 DEBUG Finished Request
+2023-08-31 10:55:36 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element {"using": "xpath", "value": "//h1[@class=\"t182__title t-title t-title_xl\"]"}
+2023-08-31 10:55:36 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/element HTTP/1.1" 404 0
+2023-08-31 10:55:36 DEBUG Remote response: status=404 | data={"value":{"error":"no such element","message":"no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1[@class=\"t182__title t-title t-title_xl\"]\"}\n  (Session info: chrome=116.0.5845.112)","stacktrace":"\tGetHandleVerifier [0x006137C3+48947]\n\t(No symbol) [0x005A8551]\n\t(No symbol) [0x004AC92D]\n\t(No symbol) [0x004D9E38]\n\t(No symbol) [0x004D9EFB]\n\t(No symbol) [0x00508EF2]\n\t(No symbol) [0x004F50D4]\n\t(No symbol) [0x005075DA]\n\t(No symbol) [0x004F4E86]\n\t(No symbol) [0x004D16C7]\n\t(No symbol) [0x004D284D]\n\tGetHandleVerifier [0x0085FDF9+2458985]\n\tGetHandleVerifier [0x008A744F+2751423]\n\tGetHandleVerifier [0x008A1361+2726609]\n\tGetHandleVerifier [0x00690680+560624]\n\t(No symbol) [0x005B238C]\n\t(No symbol) [0x005AE268]\n\t(No symbol) [0x005AE392]\n\t(No symbol) [0x005A10B7]\n\tBaseThreadInitThunk [0x778A6839+25]\n\tRtlGetFullPathName_UEx [0x77A78F0F+1215]\n\tRtlGetFullPathName_UEx [0x77A78EDD+1165]\n"}} | headers=HTTPHeaderDict({'Content-Length': '963', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:36 DEBUG Finished Request
+2023-08-31 10:55:37 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element {"using": "xpath", "value": "//h1[@class=\"t182__title t-title t-title_xl\"]"}
+2023-08-31 10:55:37 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/element HTTP/1.1" 200 0
+2023-08-31 10:55:37 DEBUG Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"E16A5A5F405460DC9113C571A4CB020D_element_106"}} | headers=HTTPHeaderDict({'Content-Length': '96', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:37 DEBUG Finished Request
+2023-08-31 10:55:37 DEBUG GET http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element/E16A5A5F405460DC9113C571A4CB020D_element_106/text {"id": "E16A5A5F405460DC9113C571A4CB020D_element_106"}
+2023-08-31 10:55:37 DEBUG http://localhost:51749 "GET /session/ec1f5229fd18050d8a77e889807a7ccf/element/E16A5A5F405460DC9113C571A4CB020D_element_106/text HTTP/1.1" 200 0
+2023-08-31 10:55:37 DEBUG Remote response: status=200 | data={"value":"WorkMaxX"} | headers=HTTPHeaderDict({'Content-Length': '20', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:37 DEBUG Finished Request
+2023-08-31 10:55:37 DEBUG We find text "WorkMaxX" in field back to top
+2023-08-31 10:55:37 INFO Test_13 Starting...
+2023-08-31 10:55:37 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/url {"url": "http://workmaxx.tilda.ws"}
+2023-08-31 10:55:37 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/url HTTP/1.1" 200 0
+2023-08-31 10:55:37 DEBUG Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:37 DEBUG Finished Request
+2023-08-31 10:55:37 DEBUG Send 4444@bk.ru to element Email field
+2023-08-31 10:55:37 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element {"using": "xpath", "value": "//*[@id=\"input_1496238230199\"]"}
+2023-08-31 10:55:37 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/element HTTP/1.1" 200 0
+2023-08-31 10:55:37 DEBUG Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"D8C5D3710E31FED62CDBA66328695FFE_element_110"}} | headers=HTTPHeaderDict({'Content-Length': '96', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:37 DEBUG Finished Request
+2023-08-31 10:55:37 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element/D8C5D3710E31FED62CDBA66328695FFE_element_110/clear {"id": "D8C5D3710E31FED62CDBA66328695FFE_element_110"}
+2023-08-31 10:55:37 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/element/D8C5D3710E31FED62CDBA66328695FFE_element_110/clear HTTP/1.1" 200 0
+2023-08-31 10:55:37 DEBUG Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:37 DEBUG Finished Request
+2023-08-31 10:55:37 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element/D8C5D3710E31FED62CDBA66328695FFE_element_110/value {"text": "4444@bk.ru", "value": ["4", "4", "4", "4", "@", "b", "k", ".", "r", "u"], "id": "D8C5D3710E31FED62CDBA66328695FFE_element_110"}
+2023-08-31 10:55:37 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/element/D8C5D3710E31FED62CDBA66328695FFE_element_110/value HTTP/1.1" 200 0
+2023-08-31 10:55:37 DEBUG Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:37 DEBUG Finished Request
+2023-08-31 10:55:37 DEBUG Send John to element Name field
+2023-08-31 10:55:37 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element {"using": "xpath", "value": "//*[@id=\"input_1496238250184\"]"}
+2023-08-31 10:55:37 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/element HTTP/1.1" 200 0
+2023-08-31 10:55:37 DEBUG Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"D8C5D3710E31FED62CDBA66328695FFE_element_115"}} | headers=HTTPHeaderDict({'Content-Length': '96', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:37 DEBUG Finished Request
+2023-08-31 10:55:37 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element/D8C5D3710E31FED62CDBA66328695FFE_element_115/clear {"id": "D8C5D3710E31FED62CDBA66328695FFE_element_115"}
+2023-08-31 10:55:37 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/element/D8C5D3710E31FED62CDBA66328695FFE_element_115/clear HTTP/1.1" 200 0
+2023-08-31 10:55:37 DEBUG Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:37 DEBUG Finished Request
+2023-08-31 10:55:37 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element/D8C5D3710E31FED62CDBA66328695FFE_element_115/value {"text": "John", "value": ["J", "o", "h", "n"], "id": "D8C5D3710E31FED62CDBA66328695FFE_element_115"}
+2023-08-31 10:55:38 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/element/D8C5D3710E31FED62CDBA66328695FFE_element_115/value HTTP/1.1" 200 0
+2023-08-31 10:55:38 DEBUG Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:38 DEBUG Finished Request
+2023-08-31 10:55:38 DEBUG Send Hello world to element Message field
+2023-08-31 10:55:38 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element {"using": "xpath", "value": "//*[@id=\"input_1496238259342\"]"}
+2023-08-31 10:55:38 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/element HTTP/1.1" 200 0
+2023-08-31 10:55:38 DEBUG Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"D8C5D3710E31FED62CDBA66328695FFE_element_117"}} | headers=HTTPHeaderDict({'Content-Length': '96', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:38 DEBUG Finished Request
+2023-08-31 10:55:38 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element/D8C5D3710E31FED62CDBA66328695FFE_element_117/clear {"id": "D8C5D3710E31FED62CDBA66328695FFE_element_117"}
+2023-08-31 10:55:38 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/element/D8C5D3710E31FED62CDBA66328695FFE_element_117/clear HTTP/1.1" 200 0
+2023-08-31 10:55:38 DEBUG Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:38 DEBUG Finished Request
+2023-08-31 10:55:38 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element/D8C5D3710E31FED62CDBA66328695FFE_element_117/value {"text": "Hello world", "value": ["H", "e", "l", "l", "o", " ", "w", "o", "r", "l", "d"], "id": "D8C5D3710E31FED62CDBA66328695FFE_element_117"}
+2023-08-31 10:55:38 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/element/D8C5D3710E31FED62CDBA66328695FFE_element_117/value HTTP/1.1" 200 0
+2023-08-31 10:55:38 DEBUG Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:38 DEBUG Finished Request
+2023-08-31 10:55:40 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element {"using": "css selector", "value": "div.t-form__inputsbox > div.t-form__submit > button"}
+2023-08-31 10:55:40 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/element HTTP/1.1" 200 0
+2023-08-31 10:55:40 DEBUG Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"D8C5D3710E31FED62CDBA66328695FFE_element_120"}} | headers=HTTPHeaderDict({'Content-Length': '96', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:40 DEBUG Finished Request
+2023-08-31 10:55:40 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element/D8C5D3710E31FED62CDBA66328695FFE_element_120/click {"id": "D8C5D3710E31FED62CDBA66328695FFE_element_120"}
+2023-08-31 10:55:40 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/element/D8C5D3710E31FED62CDBA66328695FFE_element_120/click HTTP/1.1" 200 0
+2023-08-31 10:55:40 DEBUG Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:40 DEBUG Finished Request
+2023-08-31 10:55:40 DEBUG Clicked in contacts 'Отправить' button
+2023-08-31 10:55:50 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element {"using": "xpath", "value": "//*[@id=\"form370238945\"]/div[1]"}
+2023-08-31 10:55:50 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/element HTTP/1.1" 200 0
+2023-08-31 10:55:50 DEBUG Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"D8C5D3710E31FED62CDBA66328695FFE_element_128"}} | headers=HTTPHeaderDict({'Content-Length': '96', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:50 DEBUG Finished Request
+2023-08-31 10:55:50 DEBUG GET http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element/D8C5D3710E31FED62CDBA66328695FFE_element_128/text {"id": "D8C5D3710E31FED62CDBA66328695FFE_element_128"}
+2023-08-31 10:55:50 DEBUG http://localhost:51749 "GET /session/ec1f5229fd18050d8a77e889807a7ccf/element/D8C5D3710E31FED62CDBA66328695FFE_element_128/text HTTP/1.1" 200 0
+2023-08-31 10:55:50 DEBUG Remote response: status=200 | data={"value":"Спасибо! Данные успешно отправлены."} | headers=HTTPHeaderDict({'Content-Length': '77', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:50 DEBUG Finished Request
+2023-08-31 10:55:50 DEBUG We find text "Спасибо! Данные успешно отправлены." in field contact
+2023-08-31 10:55:50 INFO Test_14 Starting...
+2023-08-31 10:55:50 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/url {"url": "http://workmaxx.tilda.ws"}
+2023-08-31 10:55:50 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/url HTTP/1.1" 200 0
+2023-08-31 10:55:50 DEBUG Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:50 DEBUG Finished Request
+2023-08-31 10:55:52 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element {"using": "css selector", "value": "div.t446__rightmenuwrapper > ul > li:nth-child(1)"}
+2023-08-31 10:55:52 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/element HTTP/1.1" 200 0
+2023-08-31 10:55:52 DEBUG Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"E5D431AAD89B77E5C78C42F6B9EC4E3B_element_135"}} | headers=HTTPHeaderDict({'Content-Length': '96', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:52 DEBUG Finished Request
+2023-08-31 10:55:52 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element/E5D431AAD89B77E5C78C42F6B9EC4E3B_element_135/click {"id": "E5D431AAD89B77E5C78C42F6B9EC4E3B_element_135"}
+2023-08-31 10:55:52 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/element/E5D431AAD89B77E5C78C42F6B9EC4E3B_element_135/click HTTP/1.1" 200 0
+2023-08-31 10:55:52 DEBUG Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:52 DEBUG Finished Request
+2023-08-31 10:55:52 DEBUG Clicked in heder 'UI-UX' button
+2023-08-31 10:55:54 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element {"using": "xpath", "value": "//*[@id=\"nav370318153\"]/div/div[1]/div/div/a/div"}
+2023-08-31 10:55:54 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/element HTTP/1.1" 200 0
+2023-08-31 10:55:54 DEBUG Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"334AAE49332462337E64FC4E159CA55C_element_144"}} | headers=HTTPHeaderDict({'Content-Length': '96', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:54 DEBUG Finished Request
+2023-08-31 10:55:54 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element/334AAE49332462337E64FC4E159CA55C_element_144/click {"id": "334AAE49332462337E64FC4E159CA55C_element_144"}
+2023-08-31 10:55:55 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/element/334AAE49332462337E64FC4E159CA55C_element_144/click HTTP/1.1" 200 0
+2023-08-31 10:55:55 DEBUG Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:55 DEBUG Finished Request
+2023-08-31 10:55:55 DEBUG Clicked in heder 'WorkMaxX' button
+2023-08-31 10:55:57 DEBUG POST http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element {"using": "xpath", "value": "//h1[@class='t182__title t-title t-title_xl']"}
+2023-08-31 10:55:57 DEBUG http://localhost:51749 "POST /session/ec1f5229fd18050d8a77e889807a7ccf/element HTTP/1.1" 200 0
+2023-08-31 10:55:57 DEBUG Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"721DB3ADFADAC25FD866B66AA514003B_element_150"}} | headers=HTTPHeaderDict({'Content-Length': '96', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:57 DEBUG Finished Request
+2023-08-31 10:55:57 DEBUG GET http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf/element/721DB3ADFADAC25FD866B66AA514003B_element_150/text {"id": "721DB3ADFADAC25FD866B66AA514003B_element_150"}
+2023-08-31 10:55:57 DEBUG http://localhost:51749 "GET /session/ec1f5229fd18050d8a77e889807a7ccf/element/721DB3ADFADAC25FD866B66AA514003B_element_150/text HTTP/1.1" 200 0
+2023-08-31 10:55:57 DEBUG Remote response: status=200 | data={"value":"WorkMaxX"} | headers=HTTPHeaderDict({'Content-Length': '20', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:57 DEBUG Finished Request
+2023-08-31 10:55:57 DEBUG We find text "WorkMaxX" in field contact
+2023-08-31 10:55:57 DEBUG DELETE http://localhost:51749/session/ec1f5229fd18050d8a77e889807a7ccf {}
+2023-08-31 10:55:57 DEBUG http://localhost:51749 "DELETE /session/ec1f5229fd18050d8a77e889807a7ccf HTTP/1.1" 200 0
+2023-08-31 10:55:57 DEBUG Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-08-31 10:55:57 DEBUG Finished Request
