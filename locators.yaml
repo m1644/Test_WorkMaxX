@@ -1,0 +1,29 @@
+XPATH:
+    LOCATOR_GOOD_CONTACT_FIELD: //*[@id="rec370238945"]/div/div[1]/div/div/div
+    LOCATOR_GOOD_HEDER_ABOUT_ME_FIELD: //*[@id="rec370236562"]/div/div/div/h3
+    LOCATOR_GOOD_HEDER_SERVISE_FIELD: //*[@id="rec370221167"]/div/div/div[1]/div[2]/div[1]/p
+    LOCATOR_GOOD_HEDER_ADVANTAGES_FIELD: //*[@id="rec370300541"]/div/div/div/div/h2
+    LOCATOR_GOOD_UX_FIELD: //*[@id="recorddiv370241457"]/div[3]/div/div/div/h1
+    LOCATOR_GOOD_TILDA_FIELD: //*[@id="recorddiv370249579"]/div[3]/div/div/div/h1
+    LOCATOR_GOOD_SEO_FIELD: //*[@id="recorddiv370275501"]/div[3]/div/div/div/h1
+    LOCATOR_BACK_TO_TOP_FIELD: //h1[@class="t182__title t-title t-title_xl"]
+    LOCATOR_CONTACT_EMAIL_FIELD: //*[@id="input_1496238230199"]
+    LOCATOR_CONTACT_NAME_FIELD: //*[@id="input_1496238250184"]
+    LOCATOR_CONTACT_MESSAGE_FIELD: //*[@id="input_1496238259342"]
+    LOCATOR_GOOD_CONTACT_CONT_FIELD: //*[@id="form370238945"]/div[1]
+    LOCATOR_CLICK_HEDER_WORKMAXX_BTN: //*[@id="nav370318153"]/div/div[1]/div/div/a/div
+    LOCATOR_GOOD_WORKMAXX_FIELD: //h1[@class='t182__title t-title t-title_xl']
+CSS:
+    LOCATOR_CONTACT_BTN: div.t182__buttons
+    LOCATOR_HEDER_ABOUT_ME_BTN: li:nth-child(1)
+    LOCATOR_HEDER_SERVISE_BTN: li:nth-child(2)
+    LOCATOR_HEDER_ADVANTAGES_BTN: li:nth-child(3)
+    LOCATOR_HEDER_CONTACT_BTN: li:nth-child(4)
+    LOCATOR_HEDER_UX_BTN: div.t446__rightmenuwrapper > ul > li:nth-child(1)
+    LOCATOR_HEDER_TILDA_BTN: div.t446__rightmenuwrapper > ul > li:nth-child(2)
+    LOCATOR_HEDER_SEO_BTN: div.t446__rightmenuwrapper > ul > li:nth-child(3)
+    LOCATOR_BLOCK_ADVANTAGES_UX_BTN: div:nth-child(1) > div.t608__textwrapper.t-align_center > a
+    LOCATOR_BLOCK_ADVANTAGES_TILDA_BTN: div:nth-child(2) > div.t608__textwrapper.t-align_center > a
+    LOCATOR_BLOCK_ADVANTAGES_SEO_BTN: div:nth-child(3) > div.t608__textwrapper.t-align_center > a
+    LOCATOR_BACK_TO_TOP_BTN: div:nth-child(4) > div > a
+    LOCATOR_CONTACT_CONT_BTN: div.t-form__inputsbox > div.t-form__submit > button
